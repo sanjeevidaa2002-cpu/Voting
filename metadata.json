@@ -1,0 +1,6 @@
+{
+  "name": "StarVoter - Reality Show Voting Platform",
+  "description": "Live contestant voting platform for reality TV shows with real-time analytics, contestant profiles, ranking leaderboards, anti-duplicate vote security, and an admin control room.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

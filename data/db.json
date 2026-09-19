@@ -1,0 +1,1115 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_1",
+      "name": "Executive Producer (Admin)",
+      "email": "admin@starvoter.tv",
+      "passwordHash": "admin123",
+      "role": "admin",
+      "createdAt": "2026-08-19T05:09:33.429Z"
+    },
+    {
+      "id": "usr_demo_1",
+      "name": "Aarav Sharma",
+      "email": "voter@starvoter.tv",
+      "passwordHash": "voter123",
+      "role": "user",
+      "createdAt": "2026-09-13T05:09:33.429Z"
+    },
+    {
+      "id": "usr_demo_2",
+      "name": "Priya Patel",
+      "email": "priya@example.com",
+      "passwordHash": "pass123",
+      "role": "user",
+      "createdAt": "2026-09-15T05:09:33.429Z"
+    },
+    {
+      "id": "usr_demo_3",
+      "name": "Rohan Mehra",
+      "email": "rohan@example.com",
+      "passwordHash": "pass123",
+      "role": "user",
+      "createdAt": "2026-09-17T05:09:33.429Z"
+    }
+  ],
+  "contestants": [
+    {
+      "id": "cnt_01",
+      "name": "Devika Singhania",
+      "contestantNumber": "01",
+      "photoUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=80",
+      "description": "Dynamic theatre artist, classical dancer, and charismatic social influencer known for her fearless vocal presence in the house.",
+      "age": 26,
+      "occupation": "Theatre Artist & Creator",
+      "city": "Mumbai",
+      "voteCount": 348922,
+      "status": "nominated",
+      "tagline": "Fearless, Unfiltered & Graceful",
+      "createdAt": "2026-08-29T05:09:33.429Z"
+    },
+    {
+      "id": "cnt_02",
+      "name": "Kabir Raichand",
+      "contestantNumber": "02",
+      "photoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop&q=80",
+      "description": "Fitness icon, MMA trainer, and strategic powerhouse who leads every physical arena task with unyielding focus.",
+      "age": 29,
+      "occupation": "MMA Fighter & Fitness Coach",
+      "city": "Delhi",
+      "voteCount": 312450,
+      "status": "nominated",
+      "tagline": "Discipline Over Everything",
+      "createdAt": "2026-08-29T05:09:33.429Z"
+    },
+    {
+      "id": "cnt_03",
+      "name": "Ananya Roy",
+      "contestantNumber": "03",
+      "photoUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=800&auto=format&fit=crop&q=80",
+      "description": "Acclaimed playback singer and songwriter bringing harmony, wit, and emotional intelligence into the high-stakes house.",
+      "age": 24,
+      "occupation": "Playback Singer & Musician",
+      "city": "Kolkata",
+      "voteCount": 284190,
+      "status": "nominated",
+      "tagline": "Melody with a Fighting Spirit",
+      "createdAt": "2026-08-29T05:09:33.429Z"
+    },
+    {
+      "id": "cnt_04",
+      "name": "Vikramjit \"VJ\" Gill",
+      "contestantNumber": "04",
+      "photoUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&auto=format&fit=crop&q=80",
+      "description": "Stand-up comedian, talk-show host, and crowd favorite bringing non-stop laughter and sharp observational humour.",
+      "age": 31,
+      "occupation": "Standup Comedian & Host",
+      "city": "Chandigarh",
+      "voteCount": 241830,
+      "status": "nominated",
+      "tagline": "Laughter is the Ultimate Shield",
+      "createdAt": "2026-08-29T05:09:33.429Z"
+    },
+    {
+      "id": "cnt_05",
+      "name": "Meera Nambiar",
+      "contestantNumber": "05",
+      "photoUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&auto=format&fit=crop&q=80",
+      "description": "Corporate lawyer turned investigative journalist known for exposing alliances and masterminding boardroom debates.",
+      "age": 28,
+      "occupation": "Investigative Journalist",
+      "city": "Bengaluru",
+      "voteCount": 198740,
+      "status": "nominated",
+      "tagline": "Facts, Logic & Unshakable Truth",
+      "createdAt": "2026-08-29T05:09:33.429Z"
+    },
+    {
+      "id": "cnt_06",
+      "name": "Samir Khan",
+      "contestantNumber": "06",
+      "photoUrl": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=800&auto=format&fit=crop&q=80",
+      "description": "Celebrity fashion stylist and luxury runway designer with an eye for dramatic flair and unshakeable loyalty.",
+      "age": 27,
+      "occupation": "Fashion Stylist & Creative Director",
+      "city": "Hyderabad",
+      "voteCount": 165210,
+      "status": "safe",
+      "tagline": "Style, Swagger & Sincerity",
+      "createdAt": "2026-08-29T05:09:33.429Z"
+    },
+    {
+      "id": "cnt_07",
+      "name": "Tara Alisha D’Souza",
+      "contestantNumber": "07",
+      "photoUrl": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=800&auto=format&fit=crop&q=80",
+      "description": "Adventure travel vlogger and wildlife documentarian who thrives under pressure and navigates complex tasks easily.",
+      "age": 25,
+      "occupation": "Wildlife Documentarian",
+      "city": "Goa",
+      "voteCount": 142680,
+      "status": "safe",
+      "tagline": "Wild at Heart, Calm in Chaos",
+      "createdAt": "2026-08-29T05:09:33.429Z"
+    },
+    {
+      "id": "cnt_08",
+      "name": "Zeeshan Merchant",
+      "contestantNumber": "08",
+      "photoUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&auto=format&fit=crop&q=80",
+      "description": "Young tech founder and chess prodigy calculating every friendship, nomination, and secret task with precision.",
+      "age": 30,
+      "occupation": "Tech Entrepreneur & Strategist",
+      "city": "Pune",
+      "voteCount": 98320,
+      "status": "evicted",
+      "tagline": "Calculating Every Step Ahead",
+      "createdAt": "2026-08-29T05:09:33.429Z"
+    }
+  ],
+  "votes": [
+    {
+      "id": "vt_hist_100",
+      "userId": "usr_demo_1",
+      "userName": "Aarav Sharma",
+      "userEmail": "voter@starvoter.tv",
+      "contestantId": "cnt_01",
+      "contestantName": "Devika Singhania",
+      "contestantNumber": "01",
+      "timestamp": "2026-09-18T04:09:33.429Z",
+      "seasonId": "season_09",
+      "status": "valid",
+      "ipAddress": "192.168.1.10"
+    },
+    {
+      "id": "vt_hist_101",
+      "userId": "usr_demo_2",
+      "userName": "Priya Patel",
+      "userEmail": "priya@example.com",
+      "contestantId": "cnt_02",
+      "contestantName": "Kabir Raichand",
+      "contestantNumber": "02",
+      "timestamp": "2026-09-18T03:09:33.429Z",
+      "seasonId": "season_09",
+      "status": "valid",
+      "ipAddress": "192.168.1.11"
+    },
+    {
+      "id": "vt_hist_102",
+      "userId": "usr_demo_3",
+      "userName": "Rohan Mehra",
+      "userEmail": "rohan@example.com",
+      "contestantId": "cnt_03",
+      "contestantName": "Ananya Roy",
+      "contestantNumber": "03",
+      "timestamp": "2026-09-18T02:09:33.429Z",
+      "seasonId": "season_09",
+      "status": "valid",
+      "ipAddress": "192.168.1.12"
+    },
+    {
+      "id": "vt_hist_103",
+      "userId": "usr_auto_1",
+      "userName": "Sneha Kapoor",
+      "userEmail": "sneha@example.com",
+      "contestantId": "cnt_04",
+      "contestantName": "Vikramjit \"VJ\" Gill",
+      "contestantNumber": "04",
+      "timestamp": "2026-09-18T00:09:33.429Z",
+      "seasonId": "season_09",
+      "status": "valid",
+      "ipAddress": "192.168.1.13"
+    },
+    {
+      "id": "vt_hist_104",
+      "userId": "usr_auto_2",
+      "userName": "Rahul Joshi",
+      "userEmail": "rahul@example.com",
+      "contestantId": "cnt_05",
+      "contestantName": "Meera Nambiar",
+      "contestantNumber": "05",
+      "timestamp": "2026-09-17T21:09:33.429Z",
+      "seasonId": "season_09",
+      "status": "valid",
+      "ipAddress": "192.168.1.14"
+    },
+    {
+      "id": "vt_hist_105",
+      "userId": "usr_demo_1",
+      "userName": "Aarav Sharma",
+      "userEmail": "voter@starvoter.tv",
+      "contestantId": "cnt_01",
+      "contestantName": "Devika Singhania",
+      "contestantNumber": "01",
+      "timestamp": "2026-09-17T17:09:33.429Z",
+      "seasonId": "season_09",
+      "status": "valid",
+      "ipAddress": "192.168.1.15"
+    },
+    {
+      "id": "vt_hist_106",
+      "userId": "usr_demo_2",
+      "userName": "Priya Patel",
+      "userEmail": "priya@example.com",
+      "contestantId": "cnt_02",
+      "contestantName": "Kabir Raichand",
+      "contestantNumber": "02",
+      "timestamp": "2026-09-17T11:09:33.429Z",
+      "seasonId": "season_09",
+      "status": "valid",
+      "ipAddress": "192.168.1.16"
+    },
+    {
+      "id": "vt_hist_107",
+      "userId": "usr_demo_3",
+      "userName": "Rohan Mehra",
+      "userEmail": "rohan@example.com",
+      "contestantId": "cnt_03",
+      "contestantName": "Ananya Roy",
+      "contestantNumber": "03",
+      "timestamp": "2026-09-17T05:09:33.429Z",
+      "seasonId": "season_09",
+      "status": "valid",
+      "ipAddress": "192.168.1.17"
+    },
+    {
+      "id": "vt_hist_108",
+      "userId": "usr_auto_1",
+      "userName": "Sneha Kapoor",
+      "userEmail": "sneha@example.com",
+      "contestantId": "cnt_04",
+      "contestantName": "Vikramjit \"VJ\" Gill",
+      "contestantNumber": "04",
+      "timestamp": "2026-09-16T17:09:33.429Z",
+      "seasonId": "season_09",
+      "status": "valid",
+      "ipAddress": "192.168.1.18"
+    },
+    {
+      "id": "vt_hist_109",
+      "userId": "usr_auto_2",
+      "userName": "Rahul Joshi",
+      "userEmail": "rahul@example.com",
+      "contestantId": "cnt_05",
+      "contestantName": "Meera Nambiar",
+      "contestantNumber": "05",
+      "timestamp": "2026-09-16T05:09:33.429Z",
+      "seasonId": "season_09",
+      "status": "valid",
+      "ipAddress": "192.168.1.19"
+    },
+    {
+      "id": "vt_hist_110",
+      "userId": "usr_demo_1",
+      "userName": "Aarav Sharma",
+      "userEmail": "voter@starvoter.tv",
+      "contestantId": "cnt_01",
+      "contestantName": "Devika Singhania",
+      "contestantNumber": "01",
+      "timestamp": "2026-09-15T05:09:33.429Z",
+      "seasonId": "season_09",
+      "status": "valid",
+      "ipAddress": "192.168.1.20"
+    },
+    {
+      "id": "vt_1789708560867_nq5o6",
+      "userId": "usr_admin_1",
+      "userName": "Executive Producer (Admin)",
+      "userEmail": "admin@starvoter.tv",
+      "contestantId": "cnt_01",
+      "contestantName": "Devika Singhania",
+      "contestantNumber": "01",
+      "timestamp": "2026-09-18T05:16:00.867Z",
+      "seasonId": "season_09",
+      "status": "valid",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "vt_1789708973745_ljxku",
+      "contestantId": "cnt_01",
+      "contestantName": "Devika Singhania",
+      "contestantNumber": "01",
+      "timestamp": "2026-09-18T05:22:53.745Z",
+      "seasonId": "season_09",
+      "status": "valid",
+      "clientIp": "127.0.0.xxx"
+    }
+  ],
+  "banners": [
+    {
+      "id": "bnr_01",
+      "name": "Grand Finale Elimination Week",
+      "title": "Grand Finale Elimination Week",
+      "subtitle": "",
+      "desktopImageUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1920&auto=format&fit=crop&q=85",
+      "tabletImageUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1200&auto=format&fit=crop&q=85",
+      "mobileImageUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&auto=format&fit=crop&q=85",
+      "destinationUrl": "#contestants-section",
+      "ctaLink": "#contestants-section",
+      "openInNewTab": false,
+      "openTarget": "_self",
+      "isActive": true,
+      "status": "active",
+      "order": 1,
+      "displayOrder": 1,
+      "createdAt": "2026-09-19T04:44:15.608Z"
+    },
+    {
+      "id": "bnr_02",
+      "name": "Live 24/7 Broadcast Arena",
+      "title": "Live 24/7 Broadcast Arena",
+      "subtitle": "",
+      "desktopImageUrl": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1920&auto=format&fit=crop&q=85",
+      "tabletImageUrl": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1200&auto=format&fit=crop&q=85",
+      "mobileImageUrl": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&auto=format&fit=crop&q=85",
+      "destinationUrl": "https://youtube.com",
+      "ctaLink": "https://youtube.com",
+      "openInNewTab": true,
+      "openTarget": "_blank",
+      "isActive": true,
+      "status": "active",
+      "order": 2,
+      "displayOrder": 2,
+      "createdAt": "2026-09-19T04:44:15.609Z"
+    },
+    {
+      "id": "bnr_03",
+      "name": "Official Leaderboard & Top Rankings",
+      "title": "Official Leaderboard & Top Rankings",
+      "subtitle": "",
+      "desktopImageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=1920&auto=format&fit=crop&q=85",
+      "tabletImageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=1200&auto=format&fit=crop&q=85",
+      "mobileImageUrl": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=800&auto=format&fit=crop&q=85",
+      "destinationUrl": "#ranking-section",
+      "ctaLink": "#ranking-section",
+      "openInNewTab": false,
+      "openTarget": "_self",
+      "isActive": true,
+      "status": "active",
+      "order": 3,
+      "displayOrder": 3,
+      "createdAt": "2026-09-19T04:44:15.609Z"
+    },
+    {
+      "id": "bnr_04",
+      "name": "Star House Global Community",
+      "title": "Star House Global Community",
+      "subtitle": "",
+      "desktopImageUrl": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=1920&auto=format&fit=crop&q=85",
+      "tabletImageUrl": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=1200&auto=format&fit=crop&q=85",
+      "mobileImageUrl": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=800&auto=format&fit=crop&q=85",
+      "destinationUrl": "https://twitter.com",
+      "ctaLink": "https://twitter.com",
+      "openInNewTab": true,
+      "openTarget": "_blank",
+      "isActive": true,
+      "status": "active",
+      "order": 4,
+      "displayOrder": 4,
+      "createdAt": "2026-09-19T04:44:15.609Z"
+    },
+    {
+      "id": "bnr_05",
+      "name": "VIP Backstage Access & Exclusive Moments",
+      "title": "VIP Backstage Access & Exclusive Moments",
+      "subtitle": "",
+      "desktopImageUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1920&auto=format&fit=crop&q=85",
+      "tabletImageUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=1200&auto=format&fit=crop&q=85",
+      "mobileImageUrl": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&auto=format&fit=crop&q=85",
+      "destinationUrl": "https://instagram.com",
+      "ctaLink": "https://instagram.com",
+      "openInNewTab": true,
+      "openTarget": "_blank",
+      "isActive": true,
+      "status": "active",
+      "order": 5,
+      "displayOrder": 5,
+      "createdAt": "2026-09-19T04:44:15.609Z"
+    },
+    {
+      "id": "bnr_06",
+      "name": "Crown of Titans Trophy Showdown",
+      "title": "Crown of Titans Trophy Showdown",
+      "subtitle": "",
+      "desktopImageUrl": "https://images.unsplash.com/photo-1469488865564-c2de10f69f96?w=1920&auto=format&fit=crop&q=85",
+      "tabletImageUrl": "https://images.unsplash.com/photo-1469488865564-c2de10f69f96?w=1200&auto=format&fit=crop&q=85",
+      "mobileImageUrl": "https://images.unsplash.com/photo-1469488865564-c2de10f69f96?w=800&auto=format&fit=crop&q=85",
+      "destinationUrl": "#contestants-section",
+      "ctaLink": "#contestants-section",
+      "openInNewTab": false,
+      "openTarget": "_self",
+      "isActive": true,
+      "status": "active",
+      "order": 6,
+      "displayOrder": 6,
+      "createdAt": "2026-09-19T04:44:15.609Z"
+    }
+  ],
+  "votingSettings": {
+    "isVotingActive": true,
+    "seasonId": "season_09",
+    "seasonName": "Season 9: Crown of Titans",
+    "startDate": "2026-09-18",
+    "startTime": "00:00",
+    "endDate": "2026-09-21",
+    "endTime": "23:59",
+    "maxVotesPerUserTotal": 50,
+    "maxVotesPerUserDaily": 5,
+    "maxVotesPerContestantDaily": 5,
+    "votingOpenMessage": "Voting is officially LIVE! Cast your votes to save your favorite contestants.",
+    "votingClosedMessage": "Official voting line is currently CLOSED. Results will be declared during the Weekend Ka Vaar episode.",
+    "hideLiveResults": false,
+    "allowGuestVoting": false
+  },
+  "siteSettings": {
+    "siteName": "STAR HOUSE",
+    "tagline": "The Ultimate Reality TV Show",
+    "logoText": "STAR HOUSE",
+    "logoIcon": "Crown",
+    "seasonTitle": "SEASON 9 — LIVE VOTING ARENA",
+    "primaryColor": "#f59e0b",
+    "accentColor": "#fbbf24",
+    "backgroundColor": "#0b0c10",
+    "headerStyle": "glass",
+    "footerContent": {
+      "copyright": "© 2026 StarHouse Entertainment Network. All rights reserved.",
+      "contactEmail": "support@starvoter.tv",
+      "contactPhone": "+1 (800) 555-STAR",
+      "address": "StarHouse Media Studios, Stage 4B, Film City",
+      "socialLinks": {
+        "twitter": "https://twitter.com",
+        "instagram": "https://instagram.com",
+        "youtube": "https://youtube.com",
+        "facebook": "https://facebook.com"
+      }
+    },
+    "aboutContent": {
+      "showDescription": "Star House is the nation’s most watched 24/7 reality entertainment phenomenon where 16 celebrities and public figures are locked inside a purpose-built smart arena with zero contact with the outside world. Every week, housemates face nominations and the audience holds the sole power to decide who stays and who gets evicted.",
+      "votingRules": [
+        "Each registered voter can cast up to 5 votes per calendar day (00:00 - 23:59 UTC).",
+        "Votes are tallied using encrypted server-side verification with anti-duplicate validation.",
+        "Voting lines close promptly at the designated cutoff time before eviction broadcasts.",
+        "Any fraudulent or bot-driven activity will result in immediate disqualification of votes.",
+        "Contestants currently in the \"Nominated\" category are eligible for public vote points."
+      ],
+      "votingInstructions": [
+        "Create a free voter account or log into your existing account.",
+        "Browse the contestants section on the homepage or dedicated contestants directory.",
+        "Click the \"VOTE NOW\" button on your preferred contestant’s card.",
+        "Confirm your vote in the verification popup modal.",
+        "Watch the live vote counter update with instant ranking recalculation!"
+      ],
+      "terms": "By participating in the Star House Public Voting Platform, you agree to comply with all official broadcast regulations, age restrictions, and anti-abuse policies. The production reserves the right to audit and nullify invalid vote submissions.",
+      "privacyPolicy": "We value your privacy. Voter emails and credentials are securely encrypted. Personal data is never shared with third-party advertising brokers."
+    },
+    "theme": {
+      "preset": "dark-gold",
+      "primaryColor": "#f59e0b",
+      "secondaryColor": "#181a24",
+      "accentColor": "#fbbf24",
+      "backgroundColor": "#0a0b0f",
+      "cardBackgroundColor": "#12141c",
+      "textColor": "#f4f4f5",
+      "borderRadius": "1rem",
+      "backgrounds": {
+        "desktopBackground": "",
+        "tabletBackground": "",
+        "mobileBackground": "",
+        "loginBackground": "",
+        "adminBackground": "",
+        "homepageBackground": "",
+        "contestantSectionBackground": "",
+        "footerBackground": ""
+      }
+    },
+    "googleServices": {
+      "googleAnalytics": {
+        "enabled": false,
+        "measurementId": "G-STARVOTE99"
+      },
+      "googleAdSense": {
+        "enabled": false,
+        "publisherId": "ca-pub-1234567890123456",
+        "slotId": "1234567890"
+      },
+      "googleSearchConsole": {
+        "enabled": false,
+        "verificationCode": "starhouse-verification-token"
+      },
+      "googleTagManager": {
+        "enabled": false,
+        "containerId": "GTM-STARHOUSE"
+      }
+    },
+    "branding": {
+      "websiteName": "STAR HOUSE",
+      "showName": "Season 9: Crown of Titans",
+      "browserTitle": "StarVoter - Reality Show Voting Platform",
+      "tagline": "The Ultimate Reality TV Show",
+      "logoText": "STAR HOUSE",
+      "logoIcon": "Crown",
+      "mainLogoUrl": "",
+      "mobileLogoUrl": "",
+      "faviconUrl": "",
+      "headerLogoUrl": "",
+      "footerLogoUrl": "",
+      "adminLogoUrl": "",
+      "showLogoUrl": ""
+    },
+    "statsConfig": {
+      "liveStatus": {
+        "enabled": true,
+        "label": "CURRENT STATUS",
+        "description": "Official verification active"
+      },
+      "totalVotes": {
+        "enabled": true,
+        "label": "TOTAL VOTES CAST",
+        "description": "Real-time Database Tally"
+      },
+      "contestantsCount": {
+        "enabled": true,
+        "label": "CONTESTANTS IN ARENA",
+        "description": "Total Housemates"
+      },
+      "countdownTimer": {
+        "enabled": true,
+        "label": "VOTING ENDS IN",
+        "description": "Official Deadline"
+      }
+    },
+    "globalContent": {
+      "branding": {
+        "siteName": "STAR HOUSE",
+        "showName": "Season 9: Crown of Titans",
+        "tagline": "The Ultimate Reality TV Show",
+        "browserTitle": "StarVoter - Reality Show Voting Platform",
+        "logoText": "STAR HOUSE"
+      },
+      "header": {
+        "tickerAnnouncement": "SEASON 9 — LIVE VOTING ARENA",
+        "liveCounterLabel": "Total Certified Votes:",
+        "showLiveCounter": true,
+        "loginButtonText": "Login",
+        "signupButtonText": "Sign Up"
+      },
+      "homepage": {
+        "heroBadge": "OFFICIAL LIVE PUBLIC VOTING",
+        "heroTitle": "VOTE FOR YOUR FAVORITE",
+        "heroSubtitle": "Grand Finale Elimination Week — Every Vote Counts!",
+        "heroPrimaryCta": "VOTE NOW",
+        "heroSecondaryCta": "Live Leaderboard",
+        "contestantsBadge": "NOMINATED CONTESTANTS",
+        "contestantsTitle": "Choose Who Stays In The House",
+        "contestantsSubtitle": "Click Vote on your chosen housemate. One vote per viewer.",
+        "rankingBadge": "LIVE VOTE LEADERBOARD",
+        "rankingTitle": "Real-Time Percentage Standings",
+        "rankingSubtitle": "Watch the momentum swing live as millions of viewers vote across the world."
+      },
+      "voting": {
+        "sectionTitle": "Cast Your Official Vote",
+        "sectionDescription": "Select your preferred contestant and verify your vote instantly.",
+        "voteButtonText": "VOTE NOW",
+        "alreadyVotedMessage": "You have already cast your official vote for this round.",
+        "voteSuccessMessage": "Your official vote has been certified and recorded!",
+        "voteErrorMessage": "Unable to submit vote. Please try again.",
+        "votingClosedMessage": "Official voting is currently CLOSED. Results will be announced live on the broadcast."
+      },
+      "results": {
+        "sectionTitle": "Official Live Results & Leaderboard",
+        "sectionSubtitle": "Certified percentage standing of all active and nominated housemates.",
+        "leaderboardLabel": "Current Standings"
+      },
+      "about": {
+        "sectionTitle": "About The Show & Voting Rules",
+        "sectionSubtitle": "Everything you need to know about Star House broadcast and rules.",
+        "showOverviewTitle": "The 24/7 Reality Arena That Captivated The Nation",
+        "rulesTitle": "Fair Play, Velocity Security & Verification Standards",
+        "stepsTitle": "Simple 3-Step Guide to Saving Your Favorite Contestant"
+      },
+      "footer": {
+        "brandDescription": "Star House is the official voting and interactive fan platform for the Star House reality television broadcast.",
+        "copyrightText": "© 2026 StarHouse Entertainment Network. All rights reserved.",
+        "contactEmail": "support@starvoter.tv",
+        "contactPhone": "+1 (800) 555-STAR",
+        "studioAddress": "StarHouse Media Studios, Stage 4B, Film City"
+      },
+      "messages": {
+        "systemMaintenanceNotice": "System running normally with 99.99% voting uptime.",
+        "winnerAnnouncement": "Grand Finale Voting in Progress!",
+        "alertBannerActive": false
+      },
+      "seo": {
+        "metaTitle": "Star House Reality Show - Official Voting Platform",
+        "metaDescription": "Vote for your favorite contestants in the Star House reality television arena. 100% free, real-time certified voting.",
+        "metaKeywords": "reality tv voting, star house, vote contestants, live ranking, reality show",
+        "ogTitle": "Star House Reality TV - Live Public Voting",
+        "ogDescription": "Cast your official vote to save your favorite contestants in the Star House arena.",
+        "ogImageUrl": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1200&auto=format&fit=crop&q=85"
+      }
+    },
+    "adsConfig": {
+      "headerAd": {
+        "enabled": false,
+        "code": "",
+        "slotType": "header",
+        "previewNote": "Adsterra 728x90 or responsive top banner"
+      },
+      "footerAd": {
+        "enabled": false,
+        "code": "",
+        "slotType": "footer",
+        "previewNote": "Adsterra 728x90 or 300x250 footer banner"
+      },
+      "bannerAd": {
+        "enabled": false,
+        "code": "",
+        "slotType": "banner",
+        "previewNote": "Mid-page promotional banner"
+      }
+    },
+    "uiSettings": {
+      "headerStyle": "glass",
+      "navigationStyle": "pills",
+      "buttonStyle": "rounded",
+      "cardStyle": "modern",
+      "contestantCardLayout": "grid-4",
+      "resultsLayout": "standard"
+    },
+    "navigationItems": [
+      {
+        "id": "nav_home",
+        "label": "Home",
+        "url": "home",
+        "order": 1,
+        "isEnabled": true
+      },
+      {
+        "id": "nav_contestants",
+        "label": "Contestants",
+        "url": "contestants",
+        "order": 2,
+        "isEnabled": true
+      },
+      {
+        "id": "nav_ranking",
+        "label": "Live Ranking",
+        "url": "ranking",
+        "order": 3,
+        "isEnabled": true
+      },
+      {
+        "id": "nav_results",
+        "label": "Results",
+        "url": "results",
+        "order": 4,
+        "isEnabled": true
+      },
+      {
+        "id": "nav_about",
+        "label": "Rules & Info",
+        "url": "about",
+        "order": 5,
+        "isEnabled": true
+      }
+    ],
+    "homepageSections": [
+      {
+        "id": "sec_hero",
+        "type": "hero_banner",
+        "title": "Grand Finale Showcase",
+        "subtitle": "Live Broadcast Carousel",
+        "isEnabled": true,
+        "order": 1
+      },
+      {
+        "id": "sec_status",
+        "type": "voting_status",
+        "title": "Live Elimination Voting",
+        "subtitle": "Real-Time Arena Status",
+        "isEnabled": true,
+        "order": 2
+      },
+      {
+        "id": "sec_contestants",
+        "type": "contestants",
+        "title": "Nominated Contestants",
+        "subtitle": "Cast Your Free Vote Below",
+        "isEnabled": true,
+        "order": 3,
+        "ctaText": "Vote Now",
+        "ctaLink": "#contestants-section"
+      },
+      {
+        "id": "sec_ranking",
+        "type": "live_ranking",
+        "title": "Live Vote Leaderboard",
+        "subtitle": "Real-Time Percentage Standings",
+        "isEnabled": true,
+        "order": 4
+      },
+      {
+        "id": "sec_rules",
+        "type": "rules_guide",
+        "title": "How It Works",
+        "subtitle": "Safe, Anonymous & Certified",
+        "isEnabled": true,
+        "order": 5
+      },
+      {
+        "id": "sec_faq",
+        "type": "faq",
+        "title": "Frequently Asked Questions",
+        "subtitle": "Viewer Guide & Support",
+        "isEnabled": true,
+        "order": 6
+      }
+    ]
+  },
+  "auditLogs": [],
+  "adminLogs": [
+    {
+      "id": "log_1789792788112_3mm2",
+      "action": "Banner Added",
+      "admin": "admin",
+      "details": "Added banner \"Home Banner 02\" (Order #2)",
+      "timestamp": "2026-09-19T04:39:48.112Z"
+    },
+    {
+      "id": "log_1789792748048_6kmu",
+      "action": "Admin Login",
+      "admin": "admin",
+      "details": "Successful executive login",
+      "timestamp": "2026-09-19T04:39:08.048Z"
+    },
+    {
+      "id": "log_1789709000506_b3sn",
+      "action": "Admin Login",
+      "admin": "admin",
+      "details": "Successful executive login",
+      "timestamp": "2026-09-18T05:23:20.506Z"
+    }
+  ],
+  "voters": [],
+  "pages": {
+    "about": {
+      "slug": "about",
+      "title": "About The Show",
+      "subtitle": "The 24/7 Reality Arena That Captivated The Nation",
+      "content": "Star House is the nation’s most watched 24/7 reality entertainment phenomenon where celebrity contestants are locked inside a purpose-built smart arena under full camera surveillance with zero outside contact. Every week, housemates face nominations and the public holds the absolute power to decide who stays and who gets evicted.",
+      "sections": [
+        {
+          "title": "24/7 Live Broadcast & House Dynamics",
+          "body": "Inside Star House, high-intensity luxury meets psychological survival. From daily captaincy tasks and luxury budget showdowns to late-night strategy sessions, every second is broadcast live to millions of passionate viewers across all digital and television channels."
+        },
+        {
+          "title": "The People’s Power",
+          "body": "No jury, no judge — only the public votes decide the ultimate winner of the Crown of Titans and the grand cash prize of $1,000,000."
+        }
+      ],
+      "updatedAt": "2026-09-19T04:38:48.320Z"
+    },
+    "rules": {
+      "slug": "rules",
+      "title": "Official Voting Rules",
+      "subtitle": "Fair Play, Velocity Security & Verification Standards",
+      "content": "To maintain integrity and fairness, Star House utilizes server-authoritative anti-fraud verification and strict rate limiting on every vote submitted.",
+      "sections": [
+        {
+          "title": "1. One Vote Per Visitor / Account Rule",
+          "body": "Each unique visitor or logged-in account is allocated exactly one official vote per nomination round. Once your ballot is cast, your voting status is permanently recorded in the database."
+        },
+        {
+          "title": "2. Free Public Access",
+          "body": "Voting is 100% free of charge. You may vote anonymously as a guest or sign up for an account to maintain your official voting receipt."
+        },
+        {
+          "title": "3. Anti-Bot & Velocity Shield",
+          "body": "Automated scripts, headless bots, and proxy manipulation attempts are automatically intercepted and disqualified by our real-time security shield."
+        }
+      ],
+      "updatedAt": "2026-09-19T04:38:48.320Z"
+    },
+    "how-to-vote": {
+      "slug": "how-to-vote",
+      "title": "How To Vote",
+      "subtitle": "Simple 3-Step Guide to Saving Your Favorite Contestant",
+      "content": "Voting is quick, simple, and instant. Follow these steps:",
+      "sections": [
+        {
+          "title": "Step 1: Choose Your Contestant",
+          "body": "Browse the official contestant roster on the homepage or contestants directory. Review stats, photos, and nomination status."
+        },
+        {
+          "title": "Step 2: Click \"VOTE NOW\"",
+          "body": "Click the Vote button on your chosen nominee’s card to trigger the vote confirmation window."
+        },
+        {
+          "title": "Step 3: Confirm & Celebrate",
+          "body": "Confirm your choice to submit your official vote directly to the secure audit ledger."
+        }
+      ],
+      "updatedAt": "2026-09-19T04:38:48.320Z"
+    },
+    "terms": {
+      "slug": "terms",
+      "title": "Terms & Conditions",
+      "subtitle": "Official Viewer Participation & Voting Terms",
+      "content": "By participating in the Star House voting platform, you agree to adhere to all broadcast rules and integrity guidelines.",
+      "sections": [
+        {
+          "title": "Eligibility",
+          "body": "Public voting is open worldwide to all viewers. Standard data rates may apply depending on your internet service provider."
+        },
+        {
+          "title": "Results Finality",
+          "body": "All tallies compiled at the official voting deadline are certified by an independent auditor and are conclusive."
+        }
+      ],
+      "updatedAt": "2026-09-19T04:38:48.320Z"
+    },
+    "privacy": {
+      "slug": "privacy",
+      "title": "Privacy Policy",
+      "subtitle": "How We Protect Your Information & Session Privacy",
+      "content": "We take privacy seriously. Guest voters are tracked using anonymized cryptographic tokens, and registered users have full control over their profile data.",
+      "sections": [
+        {
+          "title": "Data Collection & Anonymization",
+          "body": "IP addresses are hashed with cryptographic salt to prevent duplicate voting while ensuring zero personally identifiable logging for guest voters."
+        }
+      ],
+      "updatedAt": "2026-09-19T04:38:48.320Z"
+    },
+    "contact": {
+      "slug": "contact",
+      "title": "Contact Production",
+      "subtitle": "Reach Out to Star House Broadcast & Viewer Support",
+      "content": "Have questions about voting, show broadcasts, or media accreditation? Contact our dedicated support team.",
+      "sections": [
+        {
+          "title": "Studio Headquarters",
+          "body": "Star House Media Studios, Stage 4B, Film City, Studio Boulevard"
+        },
+        {
+          "title": "Direct Helpline",
+          "body": "Phone: +1 (800) 555-STAR | Email: support@starvoter.tv"
+        }
+      ],
+      "updatedAt": "2026-09-19T04:38:48.320Z"
+    },
+    "faq": {
+      "slug": "faq",
+      "title": "Frequently Asked Questions",
+      "subtitle": "Everything You Need to Know About Voting & Rules",
+      "content": "Common questions and answers regarding live voting, eliminations, and account features.",
+      "sections": [
+        {
+          "title": "Is voting completely free?",
+          "body": "Yes, 100% free! You will never be asked for payment details or credit cards to vote."
+        },
+        {
+          "title": "Can I change my vote after submitting?",
+          "body": "To protect broadcast integrity, all submitted votes are final and cannot be modified."
+        },
+        {
+          "title": "Do I need an account to vote?",
+          "body": "No! You can vote immediately as a public guest. Signing up gives you an account receipt and voting profile."
+        }
+      ],
+      "updatedAt": "2026-09-19T04:38:48.320Z"
+    }
+  },
+  "media": [
+    {
+      "id": "med_01",
+      "name": "Devika Singhania Official Portrait",
+      "url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=800&auto=format&fit=crop&q=80",
+      "type": "contestant",
+      "size": "1.2 MB",
+      "createdAt": "2026-09-04T04:38:48.320Z"
+    },
+    {
+      "id": "med_02",
+      "name": "Kabir Raichand Action Headshot",
+      "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop&q=80",
+      "type": "contestant",
+      "size": "1.4 MB",
+      "createdAt": "2026-09-04T04:38:48.320Z"
+    },
+    {
+      "id": "med_03",
+      "name": "Ananya Roy Studio Shot",
+      "url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=800&auto=format&fit=crop&q=80",
+      "type": "contestant",
+      "size": "1.1 MB",
+      "createdAt": "2026-09-04T04:38:48.320Z"
+    },
+    {
+      "id": "med_04",
+      "name": "Vikramjit Gill Promo Picture",
+      "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&auto=format&fit=crop&q=80",
+      "type": "contestant",
+      "size": "1.3 MB",
+      "createdAt": "2026-09-04T04:38:48.320Z"
+    },
+    {
+      "id": "med_05",
+      "name": "Grand Finale Gold Stage Banner",
+      "url": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=1920&auto=format&fit=crop&q=85",
+      "type": "banner",
+      "size": "3.4 MB",
+      "createdAt": "2026-09-09T04:38:48.320Z"
+    },
+    {
+      "id": "med_06",
+      "name": "Clash of Titans Promo Backdrop",
+      "url": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1920&auto=format&fit=crop&q=85",
+      "type": "banner",
+      "size": "2.8 MB",
+      "createdAt": "2026-09-09T04:38:48.320Z"
+    },
+    {
+      "id": "med_07",
+      "name": "Star House Golden Emblem",
+      "url": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600&auto=format&fit=crop&q=80",
+      "type": "logo",
+      "size": "640 KB",
+      "createdAt": "2026-08-30T04:38:48.320Z"
+    }
+  ],
+  "themes": [
+    {
+      "id": "thm_luxury_gold",
+      "name": "Luxury Gold & Obsidian",
+      "description": "Default premium gold and deep charcoal arena broadcast theme.",
+      "preset": "luxury-gold",
+      "isActive": true,
+      "isCustom": false,
+      "primaryColor": "#f59e0b",
+      "secondaryColor": "#181a24",
+      "accentColor": "#fbbf24",
+      "backgroundColor": "#0a0b0f",
+      "cardBackgroundColor": "#12141c",
+      "headerBackgroundColor": "#0f1015",
+      "footerBackgroundColor": "#090a0d",
+      "buttonColor": "#f59e0b",
+      "buttonHoverColor": "#d97706",
+      "textColor": "#f4f4f5",
+      "secondaryTextColor": "#9ca3af",
+      "borderColor": "#27272a",
+      "inputBackgroundColor": "#18181b",
+      "modalBackgroundColor": "#12141c",
+      "successColor": "#10b981",
+      "errorColor": "#f43f5e",
+      "borderRadius": "1rem",
+      "fontFamily": "outfit",
+      "shadowLevel": "medium",
+      "backgrounds": {
+        "desktopBackground": "",
+        "tabletBackground": "",
+        "mobileBackground": "",
+        "loginBackground": "",
+        "adminBackground": "",
+        "homepageBackground": "",
+        "contestantSectionBackground": "",
+        "footerBackground": ""
+      },
+      "createdAt": "2026-09-19T04:38:48.320Z"
+    },
+    {
+      "id": "thm_cyber_neon",
+      "name": "Midnight Cyber Neon",
+      "description": "High-voltage electric cyan and purple laser arena styling.",
+      "preset": "neon-cyber",
+      "isActive": false,
+      "isCustom": false,
+      "primaryColor": "#06b6d4",
+      "secondaryColor": "#1e1b4b",
+      "accentColor": "#a855f7",
+      "backgroundColor": "#030712",
+      "cardBackgroundColor": "#0f172a",
+      "headerBackgroundColor": "#0b0f19",
+      "footerBackgroundColor": "#020617",
+      "buttonColor": "#06b6d4",
+      "buttonHoverColor": "#0891b2",
+      "textColor": "#f8fafc",
+      "secondaryTextColor": "#94a3b8",
+      "borderColor": "#1e293b",
+      "inputBackgroundColor": "#0f172a",
+      "modalBackgroundColor": "#0f172a",
+      "successColor": "#10b981",
+      "errorColor": "#ef4444",
+      "borderRadius": "0.75rem",
+      "fontFamily": "jakarta",
+      "shadowLevel": "glow",
+      "backgrounds": {
+        "desktopBackground": "",
+        "tabletBackground": "",
+        "mobileBackground": "",
+        "loginBackground": "",
+        "adminBackground": "",
+        "homepageBackground": "",
+        "contestantSectionBackground": "",
+        "footerBackground": ""
+      },
+      "createdAt": "2026-09-19T04:38:48.320Z"
+    },
+    {
+      "id": "thm_crimson_flame",
+      "name": "Crimson Flame Arena",
+      "description": "Intense elimination energy with bold red and amber highlights.",
+      "preset": "crimson-flame",
+      "isActive": false,
+      "isCustom": false,
+      "primaryColor": "#ef4444",
+      "secondaryColor": "#271113",
+      "accentColor": "#f97316",
+      "backgroundColor": "#0c0708",
+      "cardBackgroundColor": "#180f12",
+      "headerBackgroundColor": "#140a0c",
+      "footerBackgroundColor": "#080405",
+      "buttonColor": "#ef4444",
+      "buttonHoverColor": "#dc2626",
+      "textColor": "#ffffff",
+      "secondaryTextColor": "#d1d5db",
+      "borderColor": "#3f191f",
+      "inputBackgroundColor": "#1c1013",
+      "modalBackgroundColor": "#1a0d10",
+      "successColor": "#10b981",
+      "errorColor": "#f43f5e",
+      "borderRadius": "1.25rem",
+      "fontFamily": "outfit",
+      "shadowLevel": "glow",
+      "backgrounds": {
+        "desktopBackground": "",
+        "tabletBackground": "",
+        "mobileBackground": "",
+        "loginBackground": "",
+        "adminBackground": "",
+        "homepageBackground": "",
+        "contestantSectionBackground": "",
+        "footerBackground": ""
+      },
+      "createdAt": "2026-09-19T04:38:48.320Z"
+    },
+    {
+      "id": "thm_clean_light",
+      "name": "Pure Clean Editorial",
+      "description": "Ultra-crisp, bright modern luxury light theme with deep charcoal contrast.",
+      "preset": "clean-light",
+      "isActive": false,
+      "isCustom": false,
+      "primaryColor": "#d97706",
+      "secondaryColor": "#f3f4f6",
+      "accentColor": "#b45309",
+      "backgroundColor": "#fafafa",
+      "cardBackgroundColor": "#ffffff",
+      "headerBackgroundColor": "#ffffff",
+      "footerBackgroundColor": "#f4f4f5",
+      "buttonColor": "#d97706",
+      "buttonHoverColor": "#b45309",
+      "textColor": "#18181b",
+      "secondaryTextColor": "#71717a",
+      "borderColor": "#e4e4e7",
+      "inputBackgroundColor": "#ffffff",
+      "modalBackgroundColor": "#ffffff",
+      "successColor": "#059669",
+      "errorColor": "#e11d48",
+      "borderRadius": "1rem",
+      "fontFamily": "sans",
+      "shadowLevel": "subtle",
+      "backgrounds": {
+        "desktopBackground": "",
+        "tabletBackground": "",
+        "mobileBackground": "",
+        "loginBackground": "",
+        "adminBackground": "",
+        "homepageBackground": "",
+        "contestantSectionBackground": "",
+        "footerBackground": ""
+      },
+      "createdAt": "2026-09-19T04:38:48.320Z"
+    }
+  ]
+}
